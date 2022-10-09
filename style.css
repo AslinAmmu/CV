@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+
+body {
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 1000px;
+  background: #fff;
+  margin: 50px;
+  box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1);
+  border: 40px solid #fff;
+  display: flex;
+}
+
+.container .left-side {
+  width: 30%;
+  border-right: 5px solid #1e7898;
+  padding-right: 40px;
+  height: 100%;
+}
+
+.container .right-side {
+  width: 70%;
+  padding-left: 40px;
+}
+
+.container .left-side .profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1;
+}
+
+.container .left-side .profile-container img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #1e7898;
+}
+
+.container h1 {
+  color: #1e7898;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.container .left-side .skills-container .skills{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+}
+
+.container .left-side .skills-container .skill {
+  color: #fff;
+  text-transform: uppercase;
+  background: #9fb6c5;
+  padding: 6px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+/* Awards */
+.container .left-side .awards-container {
+  margin-top: 25px;
+}
+.container .left-side .awards-container .awards {
+  margin-top: 10px;
+}
+
+.container .left-side .awards-container h4 {
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.container .left-side .awards-container p {
+  color: #f85a69;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.container .left-side .languages-container {
+  margin-top: 30px;
+}
+
+/* Laguages */
+.container .left-side .languages-container {
+  margin-top: 30px;
+}
+
+.container .left-side .languages-container li {
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Interest */
+.container .left-side .interests-container {
+  margin-top: 30px;
+}
+
+.container .left-side .interests-container li {
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.container .left-side .interests-container li .icon {
+  font-size: 1.2em;
+  margin-right: 5px;
+  color: #f85a69;
+}
+
+/* Personal */
+.container .right-side .personal-container {
+  margin-top: 65px;
+}
+
+.container .right-side .personal-container h3 {
+  color: #1e7898;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.container .right-side .personal-container h5 {
+  color: #f85a69;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container .right-side .personal-container p {
+    margin-top: 10px;
+}
+
+.container .right-side .personal-container .personal {
+  position: relative;
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container .right-side .personal-container .personal li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  list-style: none;
+  line-height: 1em;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+}
+.container .right-side .personal-container .personal li .icon {
+  font-size: 1.2em;
+  margin-right: 10px;
+  color: #f85a69;
+}
+
+/* Education */
+.container .right-side .education-container h1 {
+    margin-top: 18px;
+}
+
+.container .right-side .education-container .education li {
+  flex-direction: column;
+  margin: 12px 0;
+}
+.container .right-side .education-container .education li h5 {
+  color: #f85a69;
+}
+.container .right-side .education-container .education li h4 {
+  color: #333;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.container .right-side .education-container .education li h6 {
+  color: #666;
+  font-weight: 300;
+  font-size: 1em;
+}
